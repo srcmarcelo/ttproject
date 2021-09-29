@@ -1,0 +1,13 @@
+h1{
+    position: absolute;
+    left: 100px;
+    top: 33px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 26px;
+
+
+    color: #333333;
+}
