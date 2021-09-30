@@ -11,6 +11,7 @@ function Overview() {
             <Doughnut 
                 className='rosca'
                 data={{
+                    labels: ['criados', 'finalizados', 'em aberto'],
                     datasets: [
                         {
                             data: [58.6, 34.9, 6.5],
@@ -23,7 +24,12 @@ function Overview() {
                     ]
                 }}
                 options={{
-                    maintainAspectRatio: false
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    }
                 }}
             />
         </div>
