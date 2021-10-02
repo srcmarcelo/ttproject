@@ -14,6 +14,7 @@
 
     .search1{
         position: absolute;
+        outline: none;
         width: 311px;
         height: 34px;
         left: 10px;
@@ -28,6 +29,7 @@
 
     .situation{
         position: absolute;
+        outline: none;
         width: 311px;
         height: 28px;
         left: 10px;

@@ -29,6 +29,7 @@
 
     .time{
         position: absolute;
+        outline: none;
         top: 10px;
         right: 51px;
         width: 244px;
