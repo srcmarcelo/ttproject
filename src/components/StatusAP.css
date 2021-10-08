@@ -1,9 +1,9 @@
 .statusap{
-    position: absolute;
+    position: relative;
     width: 355px;
     height: 325px;
-    left: 484px;
-    top: 365px;
+    top: -525px;
+    left: 383px;
 
     background: #FFFFFF;
     border: 0.5px solid #E4E4E4;

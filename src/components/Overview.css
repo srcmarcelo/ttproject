@@ -1,9 +1,9 @@
 .over{
-        position: absolute;
+        position: relative;
         width: 347px;
         height: 269px;
-        left: 867px;
-        top: 86px;
+        top: -216px;
+        left: 768px;
 
         background: #FFFFFF;
         border: 0.5px solid #E4E4E4;

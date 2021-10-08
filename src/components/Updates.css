@@ -1,9 +1,10 @@
 .updates{
-    position: absolute;
+    position: relative;
     width: 347px;
     height: 670px;
-    left: 867px;
-    top: 365px;
+    top: -850px;
+    left: 768px;
+    
 
     background: #FFFFFF;
     border: 0.5px solid #E4E4E4;

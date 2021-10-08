@@ -1,0 +1,403 @@
+.sidebar{
+    position: absolute;
+    width: 51px;
+    height: 1088px;
+    left: 0px;
+    top: 0px;
+    
+
+    background: linear-gradient(180deg, #0DB2D6 8.12%, #4FDA91 71.62%);
+    }
+    .elipse{
+        position: fixed;
+        top: 130px;
+        left: 0px;
+        z-index: 1000px;
+        display: flex;
+        background-color: #FFFFFF;
+        width: 51px;
+        height: 51px;
+        border-radius: 100px;
+        border-style: none;
+        align-items: center;
+        justify-content: center;
+        transition: 250ms;
+        }
+        .fa-bars{
+            font-size: large;
+            background-color: #FFFFFF;
+        }
+    .elipse:hover{
+        border-radius: 0px;
+        transition: 250ms;
+    }
+
+.menu{
+    position: absolute;
+    left: 51px;
+    height: 1088px;
+    width: 250px;
+    background-color: #FAFAFA;
+
+    border: 1px solid #EBEBEB;
+    }
+    .fa-chart-bar{
+        position: fixed;
+        height: 26px;
+        left: 78px;
+        top: 113px;
+
+        font-size: x-large;
+        color: #0794B2;
+    }
+    .menu-item{
+        position: fixed;
+        width: 130px;
+        height: 26px;
+        left: 106px;
+        top: 111px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 26px;
+
+        color: #0794B2;
+    }
+
+    .arrow{
+        position: fixed;
+        width: 15px;
+        height: 15px;
+        left: 293px;
+        top: 78px;
+        padding-bottom: 3px;
+        border-radius: 100px;
+        border-style: none;
+        align-items: center;
+        justify-content: center;
+        background: #0794B3;
+        }
+        .fa-chevron-left{
+            position: absolute;
+            left: 3.5px;
+            top: 2.5px;
+            color: #FFFFFF;
+            background-color: #0794B3;
+            font-size: 10px;
+        }
+
+.CompsContainer{
+    position: absolute;
+    left: 70px;
+    width: 1250px;
+    height: 1088px;
+}
+
+.MenuCompsContainer{
+    position: absolute;
+    left: 350px;
+    width: 1250px;
+    height: 1088px;
+}
+
+.menu-cancel{
+    display: none;
+}
+
+.menu-links{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1480px){
+    .menu{
+        width: 200px;
+    }
+    .arrow{
+        left: 243px;
+    }
+    .MenuCompsContainer{
+        position: absolute;
+        left: 280px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .over,
+    .updates{
+        left: 748px;
+    }
+}
+
+@media screen and (max-width: 1380px){
+    .CompsContainer{
+        left: 300px;
+    }
+    .over{
+        top: 760px;
+        left: 200px;
+    }
+    .updates{
+        top: -850px;
+        left: 391px;
+    }
+    .inspections{
+        top: -535px;
+    }
+    .statusap{
+        top: -180px;
+        left: 0px;
+    }
+    .MenuCompsContainer,
+    .sidebar,
+    .menu{
+        height: 1720px;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    .CompsContainer{
+        left: 150px;
+    }
+
+    .menu{
+        position: absolute;
+        left: 51px;
+        height: 1720px;
+        width: 100vw;
+        background-color: #FAFAFA;
+
+        border: 1px solid #EBEBEB;
+    }
+
+    .MenuCompsContainer{
+        display: none;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    .menu-item{
+        position: fixed;
+        width: 330px;
+        height: 26px;
+        left: 136px;
+        top: 151px;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 26px;
+
+        color: #0794B2;
+        }
+        .fa-chart-bar{
+            position: fixed;
+            height: 26px;
+            left: 95px;
+            top: 151px;
+    
+            font-size: xx-large;
+            color: #0794B2;
+        }
+}
+
+
+@media screen and (max-width: 920px){
+    .CompsContainer{
+        left: 55px;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .sidebar{
+        height: 2400px;
+    }
+    .CompsContainer{
+        left: 150px;
+    }
+    .events,
+    .inspections{
+        width: 400px;
+    }
+    .time,
+    .time2{
+        width: 100px;
+    }
+    .statusap,
+    .status{
+        position: relative;
+        left: 20px;
+    }
+    .over,
+    .updates{
+        left: 25px;
+    }
+    .search2{
+        width: 380px;
+    }
+    .updates{
+        top: 130px;
+    }
+    .inspections{
+        top: 145px;
+    }
+    .InspecsTable{
+        width: 380px;
+        }
+        .Header{
+            position: absolute;
+            width: 380px;
+            height: 21px;
+            }
+            .elements{
+                display: grid;
+                grid-template-columns: repeat(4, auto);
+                grid-gap: 10px;
+                list-style: none;
+                text-align: center;
+                justify-content: end;
+
+                background-color: #FFFFFF;
+                }
+                .element1{
+                    margin-right: 105px;
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 6px;
+
+                    color: #333333;
+                    background-color: #FFFFFF;
+                    height: 100%;
+                }
+                .element2{
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 6px;
+                    margin-right: 10px;
+
+                    color: #333333;
+                    background-color: #FFFFFF;
+                    padding: 0.5rem ;
+                    width: 30px;
+                    height: 100%;
+                }
+                .element3{
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 6px;
+                    margin-right: 20px;
+
+                    color: #333333;
+                    background-color: #FFFFFF;
+                    padding: 0.5rem ;
+                    width: 30px;
+                    height: 100%;
+                }
+                .element4{
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 6px;
+                    margin-right: 37px;
+
+                    color: #333333;
+                    background-color: #FFFFFF;
+                    padding: 0.5rem ;
+                    width: 85px;
+                    height: 100%;
+                }
+        .InspecsContainer{
+            margin-top: 20px;
+            width: 3800px;
+            height: 180px;
+
+            background-color: #FFFFFF;
+            }
+            .elements2{
+                display: grid;
+                grid-template-columns: repeat(4, auto);
+                grid-gap: 10px;
+                list-style: none;
+                text-align: center;
+                justify-content: end;
+                border-bottom: 0.5px solid #EBEBEB;;
+
+                background-color: #FFFFFF;
+                }
+                .cont1{
+                    position: absolute;
+                    left: 15px;
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 10px;
+
+                    color: #333333;
+                    padding: 0.33rem;
+                    background-color: #FFFFFF;
+                    
+                }
+                .planed{
+                    position: absolute;
+                    left: 167px;
+                    text-decoration: none;
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 10px;
+
+                    color: #333333;
+                    background-color: #FFFFFF;
+                    padding: 0.33rem;
+                    width: 30px;
+                }
+                .done{
+                    position: absolute;
+                    left: 215px;
+                    text-decoration: none;
+                    text-align: center;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 10px;
+
+                    color: #333333;
+                    background-color: #FFFFFF;
+                    padding: 0.33rem;
+                    width: 30px;
+                }
+                .lastup{
+                    text-decoration: none;
+                    font-style: normal;
+                    text-align: center;
+                    font-weight: bold;
+                    font-size: 10px;
+
+                    color: #333333;
+                    background-color: #FFFFFF;
+                    padding: 0.37rem;
+                    width: 100px;
+                    height: 100%;
+                }
+}
+
+@media screen and (max-width: 620px){
+    .CompsContainer{
+        left: 70px;
+    }
+}

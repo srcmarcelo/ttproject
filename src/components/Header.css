@@ -1,7 +1,6 @@
 .panel{
-    position: absolute;
-    left: 100px;
-    top: 33px;
+    position: relative;
+    top: 20px;
 
     font-style: normal;
     font-weight: 600;

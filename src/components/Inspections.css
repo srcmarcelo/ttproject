@@ -1,9 +1,8 @@
 .inspections{
-    position: absolute;
+    position: relative;
     width: 738px;
     height: 331px;
-    left: 100px;
-    top: 704px;
+    top: -1181px;
 
     background: #FFFFFF;
     border: 0.5px solid #E4E4E4;
